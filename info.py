@@ -27,7 +27,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://stthamizhan:stthamizha
 DATABASE_NAME = environ.get('DATABASE_NAME', "stthamizhan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002121178765'))
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/ccb9db43e62a2e524928e.jpg')
+QR_CODE = environ.get('QR_CODE', 'https://drive.google.com/uc?id=1GYi2LTPo9nRO0GxDeKBepJJPcu_q8iFk&export=download')
 START_IMG = environ.get('START_IMG', 'https://yohanrockstar.rockstar17.workers.dev/0:/file_292.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002121178765'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001905670346'))
